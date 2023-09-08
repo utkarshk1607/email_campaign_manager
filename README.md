@@ -57,7 +57,7 @@ The app provides endpoints for managing subscribers and campaigns programmatical
 - `/send_email`: Send email of a specific campaign to all the "active users" <br>
 
 
-3. **Endpoints:**
+3. **SMTP server**
 
 For sending emails, I have used mailgun's SMTP server, you can create your own account there, and add SMTP credentials, in settings.py in order to succesfully send emails. <br>
 `EMAIL_HOST = 'smtp.mailgun.org'` <br>
