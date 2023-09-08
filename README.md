@@ -56,6 +56,15 @@ The app provides endpoints for managing subscribers and campaigns programmatical
 - `/add_campaign/`: Create email campaigns.
 - `/send_email`: Send email of a specific campaign to all the "active users"
 
+
+3. **Endpoints:**
+
+For sending emails, I have used mailgun's SMTP server, you can create your own account there, and add SMTP credentials, in settings.py in order to succesfully send emails. <br>
+`EMAIL_HOST = 'smtp.mailgun.org'`
+`EMAIL_PORT = 587`
+`EMAIL_HOST_USER ='your_mailgun_account_domain'`
+`EMAIL_HOST_PASSWORD = 'yourmailgunaccountpassword'`
+
 **Configuration:**
 
 - The default database used is SQLite3. You can change the database settings in `settings.py` if needed.
