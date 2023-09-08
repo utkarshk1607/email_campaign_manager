@@ -3,6 +3,7 @@
 **Description:**
 
 The Django Email Campaign Manager is a web application that allows you to manage email subscribers, create email campaigns, and send out email campaigns to your subscribers. This app uses an SQLite3 database for data storage.
+![image](https://github.com/utkarshk1607/email_campaign_manager/assets/144452025/f4402fac-819d-469a-830b-fae96cc6dd3c)
 
 **Features:**
 
